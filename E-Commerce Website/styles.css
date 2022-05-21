@@ -128,6 +128,7 @@ button:active {
 
 .header__img--wrapper {
     padding: 20px;
+    z-index: 2;
 }
 
 .Container {
@@ -162,6 +163,10 @@ HIGHLIGHTS
     background-size: cover;
     background-repeat: no-repeat;
     transform: translateY(-100%);
+}
+
+#highlights:after {
+    
 }
 
 .highlight__wrapper {
