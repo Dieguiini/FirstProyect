@@ -265,6 +265,7 @@ HIGHLIGHTS
 
 .highlight__wrapper {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .highlight {
@@ -297,6 +298,7 @@ HIGHLIGHTS
 .highlight__subtitle {
     font-size: 20px;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 /* 
@@ -418,17 +420,29 @@ footer {
     button {
         font-size: 18px;
     }
+
+    .book {
+        width: 50%;
+    }
 }
 
 
 /* SMALL PHONES, LARGE SMARTPHONES */
 
 @media (max-width: 550px) {
+    .btn__menu {
+        display: block;
+    }
+
     .nav__links {
         display: none;
     }
 
-    .btn__menu {
-        display: block;
+    .highlight  {
+        width: 100%;
+    }
+
+    .highlight:not(:last-child) {
+        margin-bottom: 24px;
     }
 }
