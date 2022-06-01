@@ -134,8 +134,12 @@ HEADER
     text-align: left;
 }
 
-.header__description--img {
+.wrapper__img {
     width: 60%;
+}
+
+.description__img {
+    width: 100%;
 }
 
 .form {
@@ -158,4 +162,15 @@ HEADER
     background-color: #6415ff;
     color: #f7fafc;
     cursor: pointer;
+}
+
+.customer__para {
+    color: #ACAEC0;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 24px;
+}
+
+.img__customers {
+    max-width: 100%;
 }
