@@ -20,6 +20,12 @@ body {
 
 a {
     color: #243e63;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: #6415ff;
+    transition: all 300ms ease;
 }
 
 /*
@@ -65,6 +71,23 @@ li {
     text-decoration: none;
 }
 
+.nav__link:hover {
+    color: #6415ff;
+    transition: 300ms ease;
+}
+
 .nav__link--primary {
     margin: 0 12px 0 28px;
+}
+
+.nav__link--secondary {
+    padding: 12px 32px;
+    border-radius: 32px;
+    background-color: #6415ff;
+    color: #f7fafc;
+}
+
+.nav__link--secondary:hover {
+    color: #e5e7eb;
+    background-color: #520fd8;
 }
