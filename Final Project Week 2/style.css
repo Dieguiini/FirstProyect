@@ -174,3 +174,71 @@ HEADER
 .img__customers {
     max-width: 100%;
 }
+
+/*
+
+FEATURES
+
+*/
+
+.features__container {
+    padding: 80px 0;
+}
+
+.feature__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature__span {
+    margin-bottom: 16px;
+}
+
+.feature__title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #243e63;
+}
+
+.feature__para {
+    max-width: 576px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 16px;
+    color: #7c8ba1;
+}
+
+/*
+
+SERVICES
+
+*/
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px;
+}
+
+.service {
+    display: flex;
+    width: calc(100%/3);
+
+}
+
+.service__img {
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 9999px;
+    
+}
+
+.service__description {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0 0 16px;
+}
