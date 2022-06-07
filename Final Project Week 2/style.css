@@ -219,26 +219,32 @@ SERVICES
 .services {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    margin: 100px;
+    align-items: center;
+    margin-top: 100px;
 }
 
 .service {
     display: flex;
     width: calc(100%/3);
-
 }
 
 .service__img {
     flex-direction: column;
     padding: 20px;
-    border: 1px solid;
+    border: 1px solid #ced3db;
     border-radius: 9999px;
-    
+    margin-bottom: 38px;
 }
 
 .service__description {
     display: flex;
     flex-direction: column;
     margin: 8px 0 0 16px;
+}
+
+.service__title {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    color: #243e63
 }
