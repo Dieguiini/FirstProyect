@@ -233,4 +233,49 @@ firstNameLenght = firstName.length;
 console.log(firstNameLenght);
 */
 
+/*
+BRACKET NOTATION TO FIND FIRST CHARACTER IN STRING // Is a way to get a character at a specific index within a string
+var firstLetterOfLastName = "";
+var lastName = "Gajardo";
+firstLetterOfLastName = lastName[0];
+console.log(firstLetterOfLastName);
+*/
 
+/*
+STRING IMMUTABILITY
+var myStr = "Jello World";
+myStr = "Hello World"; // Fix me 
+console.log(myStr)
+*/
+
+/*
+BRACKET NOTATION TO FIND Nth CHARACTER IN STRING 
+var secondLetterOfLastName = "";
+var lastName = "Gajardo";
+secondLetterOfLastName = lastName[1]
+console.log(secondLetterOfLastName);
+*/
+
+/*
+BRACKET NOTATION TO FIND THE LAST CHARACTER IN STRING // Even if you don't know how many letters are in the string, it's done based on the lenght.
+var firstName = "Fernando";
+var lastLetterOfFirstName = firstName[firstName.length - 1];
+console.log(lastLetterOfFirstName);
+*/
+
+/*
+BRACKET NOTATION TO FIND Nth-to-Last CHARACTER IN STRING
+var lastName = "Quintanilla"
+var secondToLastLetterOfLastName = lastName[lastName.length - 2];
+console.log(secondToLastLetterOfLastName);
+*/
+
+/*
+WORD BLANKS
+function wordBlanks (myNoun, myAdjective, myVerb, myAdverb) {
+    var result = "";
+    result += "The " + myAdjective + myNoun + myVerb + " to the store " + myAdverb
+    return result;
+}
+console.log(wordBlanks("dog", "big", "ran", "quickly"));
+*/
