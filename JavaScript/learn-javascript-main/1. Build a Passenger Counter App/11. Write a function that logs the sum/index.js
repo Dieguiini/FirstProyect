@@ -3,4 +3,9 @@ let lap2 = 33
 let lap3 = 36
 
 // Create a function that logs out the sum of all the lap times
+function logLaps() {
+    let lapTimes = lap1 + lap2 + lap3
+    console.log(lapTimes)
+}
 
+logLaps()
