@@ -201,8 +201,36 @@ console.log(myStr)
 /*
 CONCATENATING STRINGS WITH PLUS OPERATOR
 var ourStr = "I come first. " + "I come second.";
-
-var myStr = ;
 */ 
+
+/*
+CONCATENATING STRINGS WITH PLUS EQUALS OPERATOR
+var ourStr = "I come first. ";
+ourStr += "I come second.";
+console.log(ourStr);
+*/
+
+/*
+CONSTRUCTING STRINGS WITH VARIABLES
+var ourName = "Diego";
+var ourStr = "Hello, my name is " + ourName + ", how are you?";
+console.log(ourStr);
+*/
+
+/*
+APPENDING VARIABLES TO STRINGS
+var anAdjective = "awesome!";
+var ourStr = "JavaScript is ";
+ourStr += anAdjective;
+console.log(ourStr);
+*/
+
+/*
+FIND LENGHT OF STRING
+var firstNameLenght = 0;
+var firstName = "Diego";
+firstNameLenght = firstName.length;
+console.log(firstNameLenght);
+*/
 
 
