@@ -7,3 +7,7 @@ function increment() {
 }
 
 
+/*
+The DOM (Document Object Model)
+How you use JavaScript to modify a website
+*/

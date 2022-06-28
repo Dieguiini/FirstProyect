@@ -1,4 +1,4 @@
-let countEL = document.getElementById("count-el")
+let countEL = document.getElementById("count-el") // pass an argument
 //console.log(countEL)
 let count = 0
 function increment() {
