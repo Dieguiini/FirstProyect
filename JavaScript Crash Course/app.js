@@ -395,3 +395,119 @@ Turn the elements in the array with return in new values
 //     cents.push(dollars[i] * 100)
 // }
 // console.log(cents)
+
+/*
+
+OBJECTS
+
+What are objects in JavaScript?
+
+Used to store multiple properties in one variable.
+
+*/
+
+/**
+ * let userFirstName = "Diego"
+ * let userLastName = "Gajardo"
+ * let userDiscordId = "Dieguini#001"
+ * let userSubscriptionStatus = "VIP"
+ * 
+ * If we have thousands of variables, that's when we can use objects
+ * to define object variable we use:
+ * let user = {}
+ */
+
+/*let users = [ 
+    {
+        username: "Diego", 
+        email: "diego.gajardo@metamod.cl",
+        password: "test123!",
+        subscriptionStatus: "VIP",
+        discordId: "Dieguini#001",
+        lessonsCompleted : [0, 1]
+    },
+    {
+        username: "Cristian", 
+        email: "cristian.gajardo@metamod.cl",
+        password: "Cris123!",
+        subscriptionStatus: "VIP",
+        discordId: "Cristian#001",
+        lessonsCompleted : [0, 1, 2, 3],
+    },
+]
+
+function login(email, password) {
+    for (let i = 0; i < users.length; i++) {
+        if (users[i].email === email) {
+            console.log(users[i])
+            if (users[i].password === password) {
+                console.log("log the user in - the details are correct")
+            }
+            else {
+                console.log("Password is incorrect - try again")
+            }
+            return
+        }
+    }
+    console.log("could not find an email that matches")
+}
+
+login("thisisnotdiego.gajardo@metamod.cl", "wrong password!")
+
+*/
+
+/**
+ * Create a register function that accepts:
+ * - username
+ * - email
+ * - password
+ * - subscriptionStatus
+ * - discordId
+ * - lessonsCompleted
+ * 
+ * Inside your register function:
+ * 1. Create a user object
+ * 2. Push this user object  onto the 'users' array
+ */
+
+/* function register(user) {
+        users.push(user)
+    }
+
+register({
+    username: "dieguini",
+    email: "diego.gajardo@metamod.cl",
+    password: "test123",
+    subscriptionStatus: "VIP",
+    discordId: "Dieguini#002",
+    lessonsCompleted: [0, 1]
+})
+
+console.log(users)
+*/
+
+/*
+
+THE DOM (DOCUMENT OBJECT MODEL)
+What is the DOM?
+
+The DOM allows you to acces and change te styling and content of elements on your website.
+*/
+
+// First way of accessing an element
+//console.log(document.querySelector("#title")) 
+// this is the most used !
+
+
+// Second way of accessing an element
+//console.log(document.getElementById("title"))
+
+// Change HTML
+//document.querySelector(".title").innerHTML = "Fronted Simplified"
+
+// Change CSS
+//document.querySelector(".title").style.fontSize = "16px"
+
+function toggleDarkMode() {
+    document.querySelector("body").classList.toggle("dark-theme")
+}
