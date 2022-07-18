@@ -4,14 +4,12 @@
  * addition(3, 2) -> 5
  * addition(-3, -6) -> -9
  * addition(7, 3) -> 10
-
+*/
 function addition(num1, num2) {
     return num1 + num2
 }
 console.log(addition(7, 3))
- */
-
-
+ 
 
 /** QUESTION 2
  * CONVERT HOURS INTO SECONDS
@@ -19,13 +17,12 @@ console.log(addition(7, 3))
  * hoursIntoSeconds(2) - 7200
  * hoursIntoSeconds(10) -> 36000
  * hoursIntoSeconds(24) -> 86400
- 
+ */
+
 function hoursIntoSeconds(hour) {
     return hour * 60 * 60
 }
 console.log(hoursIntoSeconds(24))
-*/
-
 
 
 /**
@@ -35,13 +32,12 @@ console.log(hoursIntoSeconds(24))
  * calcPerimeter(6 ,7) -> 26
  * calcPerimeter(20, 10) -> 60
  * calcPerimeter(2, 9) -> 22
- 
+ */
+
 function calcPerimeter(lenght, width) {
     return 2 * (lenght + width)
 }
 console.log(calcPerimeter(2, 9))
-*/
-
 
 
 /**
@@ -51,13 +47,12 @@ console.log(calcPerimeter(2, 9))
  * calcTriangleArea(3, 2) -> 3
  * calcTriangleArea(10, 10) -> 50
  * calcTriangleArea(20, 20) -> 200
- 
+ */
+
 function calcTriangleArea(base, height) {
     return 0.5 * (base * height)
 }
 console.log(calcTriangleArea(3, 2))
-*/
-
 
 
 /**
@@ -67,13 +62,12 @@ console.log(calcTriangleArea(3, 2))
  * appendFrontend("Apple") -> "AppleFrontend"
  * appendFrontend("Banana") -> "BananaFrontend"
  * appendFrontend("Orange") -> "OrangeFrontend"
+*/
 
 function appendFrontend(string) {
     return string + "Frontend"
 }
 console.log(appendFrontend("Apple"))
-*/
-
 
 
 /**
@@ -83,13 +77,12 @@ console.log(appendFrontend("Apple"))
  * sumGreaterThan100(20, 10) -> false
  * sumGreaterThan100(50, 60) -> true
  * sumGreaterThan100(100, -50) -> false
+ */
 
 function sumGreaterThan100(num1, num2) {
     return num1 + num2 > 100
     }
 console.log(sumGreaterThan100(50, 60))
- */
-
 
 
 /**
@@ -99,13 +92,12 @@ console.log(sumGreaterThan100(50, 60))
  * lessThanOrEqualToZero(3) -> false
  * lessThanOrEqualToZero(0) -> true
  * lessThanOrEqualToZero(-2) -> true
- 
+ */
+
 function lessThanOrEqualToZero(num) {
     return num <= 0
 }
 console.log(lessThanOrEqualToZero(-2))
-*/
-
 
 
 /**
@@ -114,13 +106,12 @@ console.log(lessThanOrEqualToZero(-2))
  * Given a boolean (true or false), return the opposite boolean
  * oppositeBoolean(true) -> false
  * oppositeBoolean(false) -> true
+ */
 
 function oppositeBoolean(bool) {
     return !bool // an ! infront of the boolean value is going to give you the opposite
 }
 console.log(oppositeBoolean(false))
- */
-
 
 
 /**
@@ -130,13 +121,12 @@ console.log(oppositeBoolean(false))
  * isNotZero(5) -> true
  * isNotZero(0) -> false
  * isNotZero(null) -> true
- 
+ */
+
 function isNotZero(num) {
     return num !== 0
 }    
 console.log(isNotZero(null))
-*/
-
 
 
 /**
@@ -146,13 +136,12 @@ console.log(isNotZero(null))
  * calcRemainder(4, 2) -> 0
  * calcRemainder(7, 8) -> 7
  * calcRemainder(9, 8) -> 1
- 
+ */
+
 function calcRemainder(num1, num2) {
     return num1 % num2
 }
 console.log(calcRemainder(9, 8))
-*/
-
 
 
 /**
@@ -162,13 +151,12 @@ console.log(calcRemainder(9, 8))
  * isOdd(1) -> true
  * isOdd(2) -> false
  * isOdd(3) -> true
- 
+ */
+
 function isOdd(num) {
     return num % 2 !== 0
 }
 console.log(isOdd(2))
-*/
-
 
 
 /**
@@ -178,13 +166,12 @@ console.log(isOdd(2))
  * booleanInteger(1) -> -1
  * booleanInteger(2) -> 1
  * booleanInteger(5) -> -1
- 
+ */
+
  function booleanInteger(num) {
     return num % 2 === 0 ? 1 : -1
 }
 console.log(booleanInteger(2))
-*/
-
 
 
 /**
@@ -194,13 +181,12 @@ console.log(booleanInteger(2))
  * isLoggedInAndSubscribed("LOGGED_IN", "SUBSCRIBED") -> true
  * isLoggedInAndSubscribed("LOGGED_IN", "UNSUBSCRIBED") -> false
  * isLoggedInAndSubscribed("LOGGED_OUT", "SUBSCRIBED") -> false
- 
+ */
+
 function isLoggedInAndSubscribed(loggedIn, subscribed) {
     return (loggedIn === "LOGGED_IN") && (subscribed === "SUBSCRIBED")
 }
 console.log(isLoggedInAndSubscribed("LOGGED_IN", "UNSUBSCRIBED"))
-*/
-
 
 
 /**
@@ -210,9 +196,9 @@ console.log(isLoggedInAndSubscribed("LOGGED_IN", "UNSUBSCRIBED"))
  * isLoggedInOrSubscribed("LOGGED_IN", "SUBSCRIBED") -> true
  * isLoggedInOrSubscribed("LOGGED_IN", "UNSUBSCRIBED") -> true
  * isLoggedInOrSubscribed("LOGGED_OUT", "SUBSCRIBED") -> false
- 
+ */
+
  function isLoggedInOrSubscribed(loggedIn, subscribed) {
     return (loggedIn === "LOGGED_IN") || (subscribed === "SUBSCRIBED")
 }
 console.log(isLoggedInOrSubscribed("LOGGED_IN", "UNSUBSCRIBED"))
-*/
